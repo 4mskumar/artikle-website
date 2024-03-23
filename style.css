@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+    /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+}
+
+#navbar {
+    height: 4rem;
+    width: 97.9%;
+    background-color: #CED3DC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0px 20px;
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.3);
+}
+
+#navbar a {
+    font-size: 2rem;;
+    text-decoration: none;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration:2px wavy underline;
+    position: relative;
+    top: -3px;
+    /* text-decoration: 2px ; */
+}
+
+#navbar input {
+    height: 2rem;
+    border: none;
+    border-radius: 20px;
+    width: 17rem;
+    padding-left: 1rem;
+    border: 0.2px solid black;
+}
+#navbar button {
+    height: 2rem;
+    border: none;
+    border-radius: 20px;
+    width: 5rem;
+    background-color: white;
+    margin-bottom: 10px;
+    margin-left: 1rem;
+    border: 0.2px solid black;
+}
+
+#navbar button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    border:1px solid #191919;
+}
+
+#navbar i {
+    font-size: 2rem;
+    /* background-color: white; */
+}
+
+#container {
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+    margin: 20px 0px 0px 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #FCF7F8;
+}
+
+.cnt-box {
+    border: 0.2px solid #433633;
+    width:17rem;
+    margin-right:20px;
+    height: 23rem;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 3rem;
+    overflow: hidden;
+    font-family: arial;
+    color: #191919;
+    /* word-spacing: 4px; */
+    text-align: justify;
+}
+
+.cnt-box:hover {
+    box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.cnt-box img{
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.cnt-box h2{
+    text-align: left;
+    margin-bottom: 1rem;
+    font-family: arial;
+    font-weight: 700;
+    text-decoration: 1px underline;
+}
+
+.cont-box p {
+    font-family: arial medium;
+}
+
+@media(max-width:600px){
+    #navbar {
+        height: 3rem;
+        width: 97.9%;    
+    }
+    #navbar input {
+        height: 1.5rem;
+        width: 15rem;
+    }
+    #navbar button {
+        height: 1.5rem;
+        border: none;
+        border-radius: 3px;
+        width: 4rem;
+        background-color: #ffefde;
+        margin-bottom: 10px;
+    }
+    .cnt-box {
+        width:100%;
+        height: 29rem;
+        margin-bottom: 2rem;
+        background-color: #F7F0F5;
+        padding: 10px;
+        border-radius: 8px;
+    }
+    #container {
+        display: flex;
+        width: 100%;
+        margin: 20px 0px 0px 20px;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+}
+
+footer {
+    background-color: #433633;
+    height: 6rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #CED3DC;
+}
+
+footer > div > p{
+    margin: 0.5rem;
+    color: black;
+    font-size: 1.2rem;
+    letter-spacing: 1.5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+footer > div > p> a{
+    margin: 0.5rem;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    /* letter-spacing: 1.5px; */
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#foot {
+    font-size: 1rem;
+}
